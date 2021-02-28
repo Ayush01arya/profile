@@ -1,0 +1,475 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head><link rel="icon" href="https://i.ibb.co/0BCw9kK/IMG-20200805-WA0019.jpg" type="image/gif" sizes="16x16">
+        <title>Kabir_project </title> <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/></head><style>
+            
+
+
+
+body {
+    text-align:center;
+   padding:0;
+   margin:0;
+   opacity:1;
+
+background-image:url('https://github.com/kabir01arya/project/raw/main/bg1.jpg')
+    background-size:cover;
+    background-repeat:no-repeat ;
+    background-attachment:fixed;*/
+}
+#layer2{
+    display:none;
+    background-image:url('https://github.com/kabir01arya/project/raw/main/bg2.jpg');
+    background-size:100% 100%;
+    background-repeat:no-repeat ;
+    background-attachment:fixed;
+
+}
+
+#load{
+    height:100%;
+    width:100%;
+    position:fixed;
+    display:block;
+    z-index:3;
+    background-color:#ddd;
+}
+
+.loading { 
+  width: 20px;
+  height: 20px;
+  border-radius:50%;
+  display: inline-block;
+  position: relative;
+  top:50%;
+  transform:translate(-50% -50%);
+}
+.loading div {
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  width: 20px;
+  border-radius:50%;
+  background-color: #ff0000;
+  animation: anim 1.2s infinite linear;
+}
+.loading div:nth-child(1) {
+  left: -20px;
+  animation-delay: -0.50s;
+  animation-timing-function: linear;
+}
+.loading div:nth-child(2) {
+  left: 5px;
+  animation-delay: -0.25s;
+  animation-timing-function: linear;
+}
+.loading div:nth-child(3) {
+  left: 30px;
+  animation-delay: 0;
+  animation-timing-function: linear;
+}
+@keyframes anim {
+  0% {
+    transform:scale(0.1);
+    height: 20px;
+  }
+  50%{
+    transform:scale(1);
+    height: 20px;
+  }
+  100% {
+    transform:scale(0.1);
+    height: 20px;
+  }
+}
+
+p{
+     font-size:18px;
+     font-weight:30px;
+     font-family:cursive;
+     font-variant:uppercase;
+     font-family:"Blippo", fantasy;
+     
+ }
+ 
+button
+ {
+  border:none;
+  outline:none;
+  background:#ff0000;
+  color:#fff;
+  padding:10px 20px;
+  border-radius:20px;
+ }
+ 
+.one{
+margin-left:50px;
+    width:250px;
+    height:300px;
+    background-color:#75c1f0;
+    border-radius:20px;
+    border:5px  solid #0A1172;
+    color:black;
+    display:flex;
+    flex-direction:column;
+    align-items:center ;
+  /*  box-shadow:0 0 10px rgba(0,0,0,1);*/
+    box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+  
+    font-family:"Courier New" , courier;
+    padding-top:50px;
+    opacity:0.8;
+    font-variant:uppercase;
+    }
+    
+.two{
+     margin:50px;
+    width:250px;
+    height:300px;
+    background-color:#ffd633;
+    border-radius:20px;
+     border:5px  solid #0A1172;
+     color:black;
+    display:flex;
+    flex-direction:column;
+    align-items:center ;
+  /*  box-shadow:0 0 10px rgba(0,0,0,1);*/
+     box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+    font-family:"Courier New" , courier;
+    padding-top:50px;
+    opacity:0.8;
+}
+.three{
+    margin:50px;
+    width:250px;
+    height:300px;
+    background-color:#b30000;
+    border-radius:20px;
+     border:5px  solid #0A1172;
+     color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center ;
+ /*   box-shadow:0 0 10px rgba(0,0,0,1);*/
+     box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+    font-family:"Courier New" , courier;
+    padding-top:50px;
+    opacity:0.8;
+}
+.four{
+    margin:50px;
+    width:250px;
+    height:300px;
+    background-color:#0059b3;
+    border-radius:20px;
+     border:5px  solid #0A1172;
+     color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center ;
+    /*box-shadow:0 0 10px rgba(0,0,0,1);*/
+     box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+    font-family:"Courier New" , courier;
+    padding-top:50px;
+    opacity:0.8;
+}
+.five{
+    margin:50px;
+    width:250px;
+    height:300px;
+      background-color:#ff3333;
+    border-radius:20px;
+     border:5px  solid #0A1172;
+     color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center ;
+   /* box-shadow:0 0 10px rgba(0,0,0,1);*/
+    box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+    font-family:"Courier New" , courier;
+    padding-top:50px;
+    opacity:0.8;
+}
+.six{
+    margin:50px;
+    width:250px;
+    height:300px;
+    background-color:#ffbb33;
+    border-radius:20px;
+    border:5px black;
+    border:5px solid #0A1172;
+    color:black;
+    display:flex;
+    flex-direction:column;
+    align-items:center ;
+   /* box-shadow:0 0 10px rgba(0,0,0,1);*/
+    box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+    font-family:"Courier New" , courier;
+    padding-top:50px;
+     opacity:0.8;
+     
+}
+.seven{
+    margin:50px;
+    width:250px;
+    height:300px;
+    background-color:#e62e00;
+    border-radius:20px;
+     border:5px  solid #0A1172;
+     color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center ;
+   /* box-shadow:0 0 10px rgba(0,0,0,1);*/
+    box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+    font-family:"Courier New" , courier;
+    padding-top:50px;
+    opacity:0.8;
+}
+
+.eight{
+    margin:50px;
+    width:250px;
+    height:300px;
+    background-color:#ffa31a;
+   border-radius:20px;
+     border:5px  solid #0A1172;
+     color:black;
+    display:flex;
+    flex-direction:column;
+    align-items:center ;
+  /*  box-shadow:0 0 10px rgba(0,0,0,1);*/
+   box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+    font-family:"Courier New" , courier;
+    padding-top:50px;
+    opacity:0.8;
+}
+footer{
+
+    background-color:transparent;
+    text-align:center;
+    padding:20px;
+    font-size:10px;
+    color:white;
+    
+}
+
+#round
+{
+    width:150px;
+    height:150px;
+    border-radius:5px;
+  
+}
+
+ .layer {
+  position:fixed;
+  left:0;
+  top:0;
+background:url("https://github.com/kabir01arya/project/raw/main/bg1.jpg");
+  background-size:cover;
+  height:100vh;
+  color:#aaa;
+  text-align:center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:20px;
+  z-index:1;
+  background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+display:grid;
+place-items:center;
+ }
+ .layer p 
+ {
+  margin-bottom:25px;
+ }
+
+ 
+.layertext
+{
+font-size: 15px;
+letter-spacing: 2px;
+word-spacing: 2px;
+font-weight: 700;
+z-index:1;
+text-decoration: none;
+font-style: italic;
+font-variant: normal;
+text-transform: uppercase;
+color: #FFFFFF;
+/*text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;*/
+opacity:0.8;
+}
+
+
+
+
+
+
+
+
+        </style>
+    <body>
+    <div id="load">
+        <div class="loading">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        
+    </div>
+  
+ <section class="layer" >
+   <div>
+     <p class="layertext"><p><b> All projects are made by me it take to many time to complete my app project i hope you all like it well <br><br>
+  I had made lot of desktop application, web application, 1 Android application
+     </b></p><br>
+     <button onclick="start()">Check My projects</button>
+   </div>
+ </section>
+  
+<div id="layer2">
+
+<!--    <audio id="audio"  id="music" src="https://dl.dropbox.com/s/10kr1xew5s12ebm/ipl-9284.mp3?dl=0" ></audio>-->
+
+ <audio id="audio" id="music" autoplay loop>
+   <source src="https://github.com/kabir01arya/project/raw/main/Alan%20Walker%20-%20Alone%20(Instrumental%20Remix)_20210216122542.mp3"></audio>
+    
+    
+     <div class="one"><b> CALENDAR<br><img
+     id="round" src="https://github.com/kabir01arya/project/raw/main/33.png" class="image"><BR><br> Language :<br>Python<BR><BR>Mode<br>Desktop Application</BR><br></b>
+    
+    
+    </div>
+    <br><br>
+    
+    
+        <div class="two"><b>ASTROLOGY<br><br><img id="round" src="https://github.com/kabir01arya/project/raw/main/AstroGUI.png" class="image"><br>Language :
+        <br>Python, javascript ,css ,Html<BR><BR>Mode </BR>Desktop Application</div></b>
+        
+        
+        
+        <br><br>
+        <div class="three"><b>SOLOLEARN<br><img id="round" src="https://github.com/kabir01arya/project/raw/main/GUI.png" class="image"><br>Langauge :<br>Python<BR><BR>Mode<BR>Desktop Application</BR></div></b>
+        <br><br>
+        
+        <div class="four"><b>URL SHORTNER<br><img id="round" src="https://github.com/kabir01arya/project/raw/main/GUI2.png" class="image"><br>Langauge :<br>Python<BR><BR>Mode</BR>Desktop Application<br></div></b>
+        <br><br>
+        
+        
+        <div class="five"><b>TEMPERATURE CONVERAION<br><img id="round" src="https://github.com/kabir01arya/project/raw/main/GUI21.png" class="image"><br>Langauge :<br>Python<BR><BR>Mode<br>Desktop Application</BR></div></b>
+        
+        
+        <br><br>
+        <div class="six"><b>BODY MASS INDEX CALCULATOR<br><img id="round" src="https://github.com/kabir01arya/project/raw/main/GUI22.png" class="image"><br>Langauge :<br>Python     <BR><BR>Mode</BR>Desktop Application</div></b>
+        <br><br>
+        
+        <div class="seven"><b>LOGIN<br><img id="round" src="https://github.com/kabir01arya/project/raw/main/Login.png" class="image"><br>Langauge :<br>Python , SQL<BR><BR>Mode </BR> Desktop Application<br></div></b>
+        <br><br>
+        
+        
+<div class="one"><b> MUSIC <br><img
+     id="round" src="https://github.com/kabir01arya/project/raw/main/Music_gui.png" class="image"><BR><br> Language :<br>Python ,Html , javascript ,Css<BR><BR>Mode<br>Desktop Application</BR><br></b>
+    
+    
+    </div>
+    <br><br>
+    
+    
+        <div class="two"><b>TEXT 2 SPEECH<br><br><img id="round" src="https://github.com/kabir01arya/project/raw/main/Text_GUI.png" class="image"><br>Language :
+        <br>Python, javascript ,css ,Html<BR><BR>Mode </BR>Desktop Application</div></b>
+        
+        
+        
+        <br><br>
+        <div class="three"><b>WEATHER FORCAST<br><img id="round" src="https://github.com/kabir01arya/project/raw/main/a45.png" class="image"><br>Langauge :<br>Python , Html ,javascript , Css<BR><BR>Mode<BR>Desktop Application</BR></div></b>
+        <br><br>
+        
+        <div class="four"><b>CONTACT DIARY<br><img id="round" src="https://github.com/kabir01arya/project/raw/main/contaGUI.png" class="image"><br>Langauge :<br>Python , SQL<BR><BR>Mode</BR>Desktop Application<br></div></b>
+        <br><br>
+        
+        
+        <div class="five"><b>WEB BROWSER<br><img id="round" src="https://github.com/kabir01arya/project/raw/main/don.png" class="image"><br>Langauge :<br>Python<BR><BR>Mode<br>Desktop Application</BR></div></b>
+        
+        
+        <br><br>
+        <div class="six"><b>SAATHI<br><img id="round" src="https://github.com/kabir01arya/project/raw/main/donya.png" class="image"><br>Langauge :<br>Python     <BR><BR>Mode</BR>Desktop Application</div></b>
+        <br><br>
+        
+        <div class="seven"><b>CODE GENRATOR<br><img id="round" src="https://github.com/kabir01arya/project/raw/main/eel1.png" class="image"><br>Langauge :<br>Python , Html , javascript , Css<BR><BR>Mode </BR> Desktop Application<br></div></b>
+        <br><br>
+        
+        
+        <div class="eight"><b>YOUTUBE DOWNLOADER<br><img id="round" src="https://github.com/kabir01arya/project/raw/main/eel2.png"class="image"><br>Langauge :<br>Python , Css , Javascript , Html<BR><BR>Mode</BR>Desktop Application<br></div></b><BR><br>
+        
+        <div class="one"><b> E-MAIL<br><img
+     id="round" src="https://github.com/kabir01arya/project/raw/main/email.png" class="image"><BR><br> Language :<br>Python<BR><BR>Mode<br>Desktop Application</BR><br></b>
+    
+    
+    </div>
+    <br><br>
+    
+    
+        <div class="two"><b>ELETRICITY BILL <br><br><img id="round" src="https://github.com/kabir01arya/project/raw/main/g1.png" class="image"><br>Language :
+        <br>Python<BR><BR>Mode </BR>Desktop Application</div></b>
+        
+        
+        
+        <br><br>
+        <div class="three"><b>BITCOIN<br><img id="round" src="https://github.com/kabir01arya/project/raw/main/g7070.png" class="image"><br>Langauge :<br>Python<BR><BR>Mode<BR>Desktop Application</BR></div></b>
+        <br><br>
+        
+        <div class="four"><b>FAKE EMAIL GENRATOR<br><img id="round" src="https://github.com/kabir01arya/project/raw/main/gmial.png" class="image"><br>Langauge :<br>Python<BR><BR>Mode</BR>Desktop Application<br></div></b>
+        <br><br>
+        
+        
+        <div class="five"><b>LOGIN<br><img id="round" src="https://github.com/kabir01arya/project/raw/main/kivy.png" class="image"><br>Langauge :<br>Python,Kivy<BR><BR>Mode<br>Desktop Application</BR></div></b>
+        
+        
+        <br><br>
+        <div class="six"><b>REGISTER<br><img id="round" src="https://github.com/kabir01arya/project/raw/main/kivy1.png" class="image"><br>Langauge :<br>Python , Kivy    <BR><BR>Mode</BR>Desktop Application</div></b>
+        <br><br>
+        
+        <div class="seven"><b>STOPWATCH<br><img id="round" src="https://github.com/kabir01arya/project/raw/main/stop23.png" class="image"><br>Langauge :<br>Python  <BR><BR>Mode </BR> Desktop Application<br></div></b>
+        <br><br>
+        <div class="one"><b>TRANSLATE<br><img id="round" src="https://github.com/kabir01arya/project/raw/main/traslate.png" class="image"><br>Langauge :<br>Python     <BR><BR>Mode</BR>Desktop Application</div></b><br>
+        <footer><b><br><u><h3><br>&copy;Kabir Arya & &copy;Ayush Arya<br>
+
+                        <a class="social-icon" href="https://www.instagram.com/kabir_arya001/"><i class="fab fa-instagram"><img src="https://img.icons8.com/ios-filled/32/000000/instagram-new.png"/></i></a>
+                        <a class="social-icon" href="https://www.github.com/kabir_arya"><i class="fab fa-github"></i><img src="https://img.icons8.com/ios-glyphs/32/000000/github.png"/></a>
+                        <a class="social-icon" href="https://t.me/kabir_arya001"><i class="fab fa-telegram"></i><img src="https://img.icons8.com/ios-filled/32/000000/telegram-app.png"/></a>
+                        <a class="social-icon" href="https://discord.gg/cMM4YmqY"><i class="fab fa-discord"></i><img src="https://img.icons8.com/ios-glyphs/32/000000/discord-logo.png"/></a>
+</u></h3></footer>
+        </div>
+      
+       <script>
+/* function start() {
+   document.querySelector(".layer").style.display ="none";
+   
+  
+  }*/
+  function start() {
+   document.querySelector(".layer").style.display ="none";
+   
+document.querySelector("#layer2").style.display ="block";
+  
+  }
+  window.onload=()=>{
+document.getElementById("load").style.display="none";
+
+    window.addEventListener("click",function()
+    {
+        audio.play();})
+    }
+  </script>
+  </body>
+</html>
